@@ -36,7 +36,7 @@ export const ThemeToggle = () => {
     }
     onToggle();
   };
-  const selectTheme = (theme: string) => {
+  const selectTheme = (theme: any) => {
     setactiveThemeName(theme);
     changeTheme(theme);
     handleShow();
