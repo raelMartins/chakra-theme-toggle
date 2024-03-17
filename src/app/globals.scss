@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  // font-family: var(--font_inter); //font-family: 'Work Sans', sans-serif;
+  scroll-behavior: smooth;
+  ::selection {
+    background-color: #b904041a;
+    color: #ffffff;
+  }
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  // transition: 0.5s;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  max-width: 190rem;
+  margin: auto !important;
+}
+:root {
+  // --basic-box-shadow: 0.1rem 0.05rem 0.4rem 0.05rem rgba(0, 0, 0, 0.2);
+  --basic-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
