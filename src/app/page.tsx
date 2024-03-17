@@ -41,6 +41,7 @@ export default function Home() {
         bg='secondary'
         overflow={'hidden'}
         position={'relative'}
+        transition='.5s'
       >
         <Box
           position={'absolute'}
@@ -52,10 +53,13 @@ export default function Home() {
           w='200%'
           h='200%'
           transform={'translateX(-45%) translatey(-45%) rotate(-30deg)'}
+          transition='.5s'
           // rotate={'-30deg'}
         ></Box>
         <Center zIndex={'1'}>
-          <Heading color='text'>This is sample text</Heading>
+          <Heading color='text' transition='.5s'>
+            This is sample text
+          </Heading>
         </Center>
       </Container>
       <ThemeToggle />
